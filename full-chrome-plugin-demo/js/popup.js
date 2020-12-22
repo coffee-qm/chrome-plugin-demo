@@ -1,5 +1,5 @@
 $(function() {
-
+console.log('In popup.js. jQuery is ready.');
 	// 加载设置
 	var defaultConfig = {color: 'white'}; // 默认配置
 	chrome.storage.sync.get(defaultConfig, function(items) {
